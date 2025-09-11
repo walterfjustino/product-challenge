@@ -18,7 +18,7 @@ import lombok.ToString;
 @EqualsAndHashCode(callSuper = false)
 public class Product {
 
-    private Long id;
+    private String id;
     private String name;
     private String description;
     private String validity;
