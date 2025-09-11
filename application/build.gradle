@@ -1,0 +1,13 @@
+apply plugin: 'application'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+application {
+    mainClassName = "com.challenge.product.ProductDetailsApplication"
+}
+
+dependencies{
+    implementation project(":entities")
+    implementation project(":usecases")
+    implementation project(":web")
+}

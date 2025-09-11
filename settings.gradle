@@ -1,0 +1,6 @@
+rootProject.name = 'product'
+
+include 'application'
+include 'entities'
+include 'usecases'
+include 'web'

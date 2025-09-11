@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.4.9/20f9989ef31aa84ea42382140ca591682646c398/spring-boot-configuration-processor-3.4.9.jar" />
+        </processorPath>
+        <module name="product.web.main" />
+        <module name="product.entities.main" />
+        <module name="product.usecases.main" />
+        <module name="product.application.main" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="product" options="-parameters" />
+      <module name="product.application" options="-parameters" />
+      <module name="product.application.main" options="-parameters" />
+      <module name="product.application.test" options="-parameters" />
+      <module name="product.entities" options="-parameters" />
+      <module name="product.entities.main" options="-parameters" />
+      <module name="product.entities.test" options="-parameters" />
+      <module name="product.main" options="-parameters" />
+      <module name="product.test" options="-parameters" />
+      <module name="product.usecases" options="-parameters" />
+      <module name="product.usecases.main" options="-parameters" />
+      <module name="product.usecases.test" options="-parameters" />
+      <module name="product.web" options="-parameters" />
+      <module name="product.web.main" options="-parameters" />
+      <module name="product.web.test" options="-parameters" />
+    </option>
+  </component>
+</project>
