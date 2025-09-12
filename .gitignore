@@ -33,15 +33,14 @@ target/
 # IDE files
 **/*.iml
 **/.idea/
-**/.vscode/
 **/.gradle/
 **/build/
 
-# VS Code
-.vscode/
-
 # IntelliJ IDEA
 .idea/
+
+# VS Code - Include configuration files
+!.vscode/
 
 # Gradle
 .gradle/

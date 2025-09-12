@@ -4,5 +4,7 @@ apply plugin: 'io.spring.dependency-management'
 
 dependencies{
     implementation project(":entities")
+    implementation project(":repository")
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
 }
 

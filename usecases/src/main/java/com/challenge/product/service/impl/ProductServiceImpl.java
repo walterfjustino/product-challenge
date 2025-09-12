@@ -1,26 +1,36 @@
-package com.challenge.product.service;
-
+package com.challenge.product.service.impl;
 
 import com.challenge.product.dto.ProductDTO;
+import com.challenge.product.repository.ProductRepository;
+import com.challenge.product.service.ProductService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ProductServiceImpl implements ProductService{
+@RequiredArgsConstructor
+public class ProductServiceImpl implements ProductService {
+
+  private final ProductRepository productRepository;
 
   @Override
   public ProductDTO findById(Long id) {
-    return null;
+    return productRepository.findById(String.valueOf(id));
   }
 
   @Override
   public ProductDTO findByName(String name) {
-    return null;
+    return productRepository.findByName(name);
+  }
+
+  @Override
+  public List<ProductDTO> findByNameContaining(String name) {
+    return productRepository.findByNameContaining(name);
   }
 
   @Override
   public List<ProductDTO> findAll() {
-    return List.of();
+    return productRepository.findAll();
   }
 }

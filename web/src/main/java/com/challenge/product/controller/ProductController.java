@@ -25,10 +25,15 @@ public class ProductController implements ProductControllerSwagger {
     return productService.findById(id);
   }
 
-  @GetMapping("/{name}")
+  @GetMapping("/search")
   @Override
   public ProductDTO findByName(@RequestParam("name") String name) {
     return productService.findByName(name);
+  }
+
+  @GetMapping("/search/all")
+  public List<ProductDTO> findByNameContaining(@RequestParam("name") String name) {
+    return productService.findByNameContaining(name);
   }
 
   @GetMapping("/")

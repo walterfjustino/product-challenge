@@ -1,0 +1,183 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone Galaxy S23",
+    "description": "Smartphone Android com tela de 6.1 polegadas, 128GB de armazenamento e câmera tripla de 50MP",
+    "validity": "2025-12-31"
+  },
+  {
+    "id": "2",
+    "name": "Notebook Dell Inspiron",
+    "description": "Notebook com processador Intel Core i5, 8GB RAM, SSD 256GB e tela de 15.6 polegadas",
+    "validity": "2026-06-30"
+  },
+  {
+    "id": "3",
+    "name": "Fone de Ouvido Bluetooth",
+    "description": "Fone de ouvido sem fio com cancelamento de ruído ativo e bateria de 30 horas",
+    "validity": "2025-08-15"
+  },
+  {
+    "id": "4",
+    "name": "Smart TV 55 polegadas",
+    "description": "Smart TV 4K UHD com HDR, sistema operacional Android TV e conectividade Wi-Fi",
+    "validity": "2027-03-20"
+  },
+  {
+    "id": "5",
+    "name": "Tablet iPad Air",
+    "description": "Tablet com tela de 10.9 polegadas, chip M1, 64GB de armazenamento e suporte ao Apple Pencil",
+    "validity": "2026-11-10"
+  },
+  {
+    "id": "6",
+    "name": "Smartwatch Apple Watch",
+    "description": "Relógio inteligente com GPS, monitoramento de saúde e resistência à água",
+    "validity": "2025-09-25"
+  },
+  {
+    "id": "7",
+    "name": "Console PlayStation 5",
+    "description": "Console de videogame de nova geração com SSD ultra-rápido e gráficos 4K",
+    "validity": "2028-01-15"
+  },
+  {
+    "id": "8",
+    "name": "Câmera DSLR Canon",
+    "description": "Câmera digital profissional com sensor de 24MP e lente 18-55mm incluída",
+    "validity": "2026-07-08"
+  },
+  {
+    "id": "9",
+    "name": "Aspirador de Pó Robô",
+    "description": "Aspirador robô inteligente com mapeamento laser e controle por aplicativo",
+    "validity": "2025-12-01"
+  },
+  {
+    "id": "10",
+    "name": "Air Fryer Digital",
+    "description": "Fritadeira elétrica sem óleo com capacidade de 5L e painel digital touchscreen",
+    "validity": "2025-10-30"
+  },
+  {
+ 
+   "id": "11",
+    "name": "Cafeteira Expresso",
+    "description": "Máquina de café expresso automática com moedor integrado e sistema de aquecimento rápido",
+    "validity": "2026-02-14"
+  },
+  {
+    "id": "12",
+    "name": "Monitor Gamer 27 polegadas",
+    "description": "Monitor gaming com taxa de atualização de 144Hz, resolução QHD e tecnologia G-Sync",
+    "validity": "2026-05-22"
+  },
+  {
+    "id": "13",
+    "name": "Teclado Mecânico RGB",
+    "description": "Teclado mecânico para gaming com switches Cherry MX e iluminação RGB personalizável",
+    "validity": "2025-11-18"
+  },
+  {
+    "id": "14",
+    "name": "Mouse Gamer Wireless",
+    "description": "Mouse sem fio para gaming com sensor óptico de alta precisão e 7 botões programáveis",
+    "validity": "2025-08-07"
+  },
+  {
+    "id": "15",
+    "name": "Caixa de Som Bluetooth",
+    "description": "Caixa de som portátil com conectividade Bluetooth 5.0 e resistência à água IPX7",
+    "validity": "2026-01-12"
+  },
+  {
+    "id": "16",
+    "name": "Drone com Câmera 4K",
+    "description": "Drone profissional com câmera 4K, gimbal de 3 eixos e autonomia de voo de 30 minutos",
+    "validity": "2026-09-03"
+  },
+  {
+    "id": "17",
+    "name": "Processador AMD Ryzen 7",
+    "description": "Processador de 8 núcleos e 16 threads com arquitetura Zen 3 e frequência base de 3.8GHz",
+    "validity": "2027-04-16"
+  },
+  {
+    "id": "18",
+    "name": "Placa de Vídeo RTX 4070",
+    "description": "Placa gráfica com 12GB GDDR6X, ray tracing e DLSS 3.0 para gaming em alta resolução",
+    "validity": "2027-12-05"
+  },
+  {
+    "id": "19",
+    "name": "SSD NVMe 1TB",
+    "description": "Unidade de estado sólido com interface PCIe 4.0 e velocidades de leitura até 7000 MB/s",
+    "validity": "2026-08-28"
+  },
+  {
+    "id": "20",
+    "name": "Memória RAM DDR5 32GB",
+    "description": "Kit de memória DDR5 com 32GB (2x16GB), frequência de 5600MHz e latência CL36",
+    "validity": "2027-06-11"
+  },
+  {
+    "id": "21",
+    "name": "Webcam Full HD",
+    "description": "Câmera web com resolução 1080p, microfone integrado e correção automática de luz",
+    "validity": "2025-07-19"
+  },
+  {
+    "id": "22",
+    "name": "Roteador Wi-Fi 6",
+    "description": "Roteador wireless com padrão Wi-Fi 6, velocidade até 3Gbps e cobertura de 300m²",
+    "validity": "2026-10-04"
+  },
+  {
+    "id": "23",
+    "name": "Impressora Multifuncional",
+    "description": "Impressora jato de tinta com scanner, copiadora e conectividade Wi-Fi e USB",
+    "validity": "2025-12-23"
+  },
+  {
+    "id": "24",
+    "name": "HD Externo 2TB",
+    "description": "Disco rígido externo portátil com 2TB de capacidade e conexão USB 3.0",
+    "validity": "2026-03-17"
+  },
+  {
+    "id": "25",
+    "name": "Carregador Wireless",
+    "description": "Base de carregamento sem fio com tecnologia Qi e potência de 15W para carregamento rápido",
+    "validity": "2025-09-08"
+  },
+  {
+    "id": "26",
+    "name": "Cabo HDMI 4K",
+    "description": "Cabo HDMI 2.1 de 2 metros com suporte a resolução 4K@120Hz e HDR dinâmico",
+    "validity": "2026-04-25"
+  },
+  {
+    "id": "27",
+    "name": "Powerbank 20000mAh",
+    "description": "Bateria portátil com capacidade de 20000mAh, carregamento rápido e 3 portas USB",
+    "validity": "2025-11-02"
+  },
+  {
+    "id": "28",
+    "name": "Microfone Condensador",
+    "description": "Microfone profissional para streaming e gravação com padrão polar cardioide",
+    "validity": "2026-07-14"
+  },
+  {
+    "id": "29",
+    "name": "Suporte para Monitor",
+    "description": "Braço articulado para monitor com ajuste de altura, inclinação e rotação 360°",
+    "validity": "2025-08-31"
+  },
+  {
+    "id": "30",
+    "name": "Cooler para CPU",
+    "description": "Sistema de refrigeração líquida AIO com radiador de 240mm e ventoinhas RGB",
+    "validity": "2026-12-09"
+  }
+]
