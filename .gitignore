@@ -30,7 +30,19 @@ target/
 **/build/
 !src/**/build/
 
-IntelliJ files
+# IDE files
 **/*.iml
-**/.idea
-**/.gradle
+**/.idea/
+**/.vscode/
+**/.gradle/
+**/build/
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Gradle
+.gradle/
+build/

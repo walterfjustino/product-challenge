@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug Spring Boot App",
+      "request": "launch",
+      "mainClass": "com.challenge.Application",
+      "projectName": "application",
+      "args": "",
+      "vmArgs": "-Dspring.profiles.active=dev",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "SPRING_PROFILES_ACTIVE": "dev"
+      }
+    },
+    {
+      "type": "java",
+      "name": "Debug Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Debug Tests",
+      "request": "launch",
+      "mainClass": "",
+      "projectName": "",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "args": "",
+      "vmArgs": ""
+    },
+    {
+      "type": "java",
+      "name": "Attach to Process",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005,
+      "timeout": 30000
+    }
+  ]
+}
