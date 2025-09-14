@@ -56,6 +56,7 @@ subprojects {
         annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
         implementation 'com.fasterxml.jackson.core:jackson-databind'
         implementation 'org.springframework.boot:spring-boot-starter'
+        implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.13'
 
         //TESTS
         testImplementation 'org.springframework.boot:spring-boot-starter-test'

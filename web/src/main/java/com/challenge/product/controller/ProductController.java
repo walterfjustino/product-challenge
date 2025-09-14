@@ -32,6 +32,7 @@ public class ProductController implements ProductControllerSwagger {
   }
 
   @GetMapping("/search/all")
+  @Override
   public List<ProductDTO> findByNameContaining(@RequestParam("name") String name) {
     return productService.findByNameContaining(name);
   }

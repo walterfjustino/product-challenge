@@ -34,7 +34,7 @@ target/
 **/*.iml
 **/.idea/
 **/.gradle/
-**/build/
+**/build/tmp*
 
 # IntelliJ IDEA
 .idea/
@@ -45,3 +45,4 @@ target/
 # Gradle
 .gradle/
 build/
+/entities/build/
