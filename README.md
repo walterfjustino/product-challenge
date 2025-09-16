@@ -140,6 +140,39 @@ curl --location 'http://localhost:8080/products/search/all?name=console'
 ]
 ```
 
+## 📖 Documentação Swagger
+
+A API inclui documentação interativa gerada automaticamente com Swagger/OpenAPI 3.0.
+
+### Acessando o Swagger UI
+
+Com a aplicação em execução, acesse:
+
+**🔗 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)**
+
+### Funcionalidades do Swagger UI
+
+- **Documentação Interativa**: Visualize todos os endpoints disponíveis
+- **Teste Direto**: Execute requisições diretamente pela interface
+- **Esquemas de Dados**: Veja a estrutura completa dos objetos JSON
+- **Exemplos de Resposta**: Visualize exemplos de retorno para cada endpoint
+- **Validação de Parâmetros**: Interface para testar diferentes parâmetros
+
+### Endpoints Documentados no Swagger
+
+- `GET /products/` - Lista todos os produtos
+- `GET /products/{id}` - Busca produto por ID
+- `GET /products/search` - Busca primeiro produto por nome parcial
+- `GET /products/search/all` - Busca todos os produtos por nome parcial
+
+### Como Usar
+
+1. Execute a aplicação: `./gradlew :application:bootRun`
+2. Abra o navegador em: `http://localhost:8080/swagger-ui/index.html`
+3. Explore os endpoints disponíveis
+4. Clique em "Try it out" para testar as requisições
+5. Insira os parâmetros necessários e clique em "Execute"
+
 ## 🔍 Funcionalidade de Busca Parcial
 
 ### Como Funciona
